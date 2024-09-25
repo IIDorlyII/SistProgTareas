@@ -53,5 +53,3 @@ Los actuadores se utilizan en una gran variedad de campos, incluyendo:
 Los actuadores son un componente esencial en el mundo de la automatización y el control. Dependiendo del tipo de energía que empleen, son capaces de convertir señales de control en acciones mecánicas que influyen directamente sobre el entorno. La selección del tipo de actuador depende de la aplicación, el entorno y los requisitos de fuerza y precisión.
 
 ---
-
-Publicado por [GPT Online](https://gptonline.ai/es/).
