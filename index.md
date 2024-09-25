@@ -1,6 +1,6 @@
 
 ---
-title: "Tipos de Actuadores"
+
 ---
 
 # Tipos de Actuadores
