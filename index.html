@@ -16,41 +16,144 @@
 </head>
 <body>
     <div class="slides">
+        <!-- Portada -->
         <section>
             <h1>Unidad 1: Sensores</h1>
-            <p>Introducción a los diferentes tipos de sensores y su funcionamiento.</p>
+            <p>Exploración de los diferentes tipos de sensores y su funcionamiento.</p>
         </section>
 
         <!-- 1.1 Sensores Ópticos -->
         <section>
             <h2>1.1 Sensores Ópticos</h2>
-            <p>1.1.1 Tipos<br>1.1.2 Funcionamiento<br>1.1.3 Características<br>1.1.4 Modo de comunicación</p>
+            <p>Los sensores ópticos utilizan la luz para detectar objetos o cambios en su entorno. Son ampliamente utilizados en sistemas de automatización, vehículos y dispositivos de seguridad.</p>
+        </section>
+
+        <section>
+            <h2>1.1.1 Tipos de Sensores Ópticos</h2>
+            <p>Entre los tipos de sensores ópticos encontramos:</p>
+            <ul>
+                <li><strong>Fotodiodos:</strong> Detectan la luz y la convierten en corriente eléctrica.</li>
+                <li><strong>Fototransistores:</strong> Más sensibles que los fotodiodos, amplifican la señal de luz.</li>
+                <li><strong>Sensores de infrarrojos (IR):</strong> Utilizan luz infrarroja para detectar objetos a distancia.</li>
+                <li><strong>Encoders ópticos:</strong> Determinan la posición angular de un objeto en movimiento.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.1.2 Funcionamiento de los Sensores Ópticos</h2>
+            <p>Los sensores ópticos emiten un haz de luz (generalmente infrarrojo o láser) que es reflejado por un objeto. Al detectar el cambio en la cantidad de luz reflejada o interrumpida, el sensor determina la presencia o ausencia del objeto.</p>
+        </section>
+
+        <section>
+            <h2>1.1.3 Características de los Sensores Ópticos</h2>
+            <p>Entre sus principales características están:</p>
+            <ul>
+                <li>Alta precisión y velocidad de respuesta.</li>
+                <li>Capacidad de operar en ambientes difíciles, como aquellos con altas temperaturas.</li>
+                <li>Posibilidad de medir a distancias considerables sin contacto físico.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.1.4 Modo de Comunicación de Sensores Ópticos</h2>
+            <p>Los sensores ópticos suelen comunicarse con microcontroladores o sistemas a través de señales digitales (ON/OFF) o analógicas (corriente o voltaje proporcional).</p>
         </section>
 
         <!-- 1.2 Sensores de Temperatura -->
         <section>
             <h2>1.2 Sensores de Temperatura</h2>
-            <p>1.2.1 Tipos<br>1.2.2 Funcionamiento<br>1.2.3 Características<br>1.2.4 Modo de comunicación</p>
+            <p>Estos sensores miden la temperatura de su entorno y son esenciales en aplicaciones de climatización, electrodomésticos y equipos industriales.</p>
+        </section>
+
+        <section>
+            <h2>1.2.1 Tipos de Sensores de Temperatura</h2>
+            <p>Entre los más comunes se encuentran:</p>
+            <ul>
+                <li><strong>Termopares:</strong> Generan una pequeña corriente eléctrica en función de la diferencia de temperatura entre dos puntos.</li>
+                <li><strong>RTD (Resistance Temperature Detector):</strong> Varían su resistencia en función de la temperatura.</li>
+                <li><strong>Termistores:</strong> Sensores de temperatura basados en semiconductores, altamente sensibles.</li>
+                <li><strong>Sensor de temperatura infrarrojo:</strong> Mide la radiación térmica emitida por los objetos.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.2.2 Funcionamiento de Sensores de Temperatura</h2>
+            <p>Los sensores de temperatura detectan cambios en el calor o radiación térmica y convierten estos cambios en señales eléctricas que pueden ser interpretadas por un sistema o controlador.</p>
+        </section>
+
+        <section>
+            <h2>1.2.3 Características de Sensores de Temperatura</h2>
+            <ul>
+                <li>Precisión en la medición.</li>
+                <li>Alta sensibilidad a pequeños cambios de temperatura.</li>
+                <li>Durabilidad en entornos industriales.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.2.4 Modo de Comunicación de Sensores de Temperatura</h2>
+            <p>Los sensores de temperatura pueden emitir señales analógicas, proporcionales a la temperatura medida, o digitales, comunicándose mediante protocolos como I2C o SPI.</p>
         </section>
 
         <!-- 1.3 Sensores de Presión -->
         <section>
             <h2>1.3 Sensores de Presión</h2>
-            <p>1.3.1 Tipos<br>1.3.2 Funcionamiento<br>1.3.3 Características<br>1.3.4 Modo de comunicación</p>
+            <p>Estos sensores miden la fuerza ejercida por un fluido (líquido o gas) sobre una superficie. Son comunes en la industria automotriz, aeronáutica y en sistemas hidráulicos.</p>
+        </section>
+
+        <section>
+            <h2>1.3.1 Tipos de Sensores de Presión</h2>
+            <p>Algunos de los tipos incluyen:</p>
+            <ul>
+                <li><strong>Sensores piezoeléctricos:</strong> Detectan cambios en la presión usando materiales piezoeléctricos.</li>
+                <li><strong>Manómetros:</strong> Miden la presión relativa a la atmosférica.</li>
+                <li><strong>Transductores de presión:</strong> Convierten la presión en una señal eléctrica proporcional.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.3.2 Funcionamiento de Sensores de Presión</h2>
+            <p>Los sensores de presión miden la deformación en un material (como un diafragma) al ser sometido a presión y convierten esa deformación en señales eléctricas proporcionales.</p>
+        </section>
+
+        <section>
+            <h2>1.3.3 Características de Sensores de Presión</h2>
+            <ul>
+                <li>Alta precisión y repetibilidad.</li>
+                <li>Capacidad para operar en diferentes rangos de presión.</li>
+                <li>Resistencia a condiciones extremas.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.3.4 Modo de Comunicación de Sensores de Presión</h2>
+            <p>La mayoría de los sensores de presión utilizan señales analógicas (como 4-20 mA o 0-10 V) o digitales con protocolos industriales como Modbus.</p>
         </section>
 
         <!-- 1.4 Sensores de Proximidad -->
         <section>
             <h2>1.4 Sensores de Proximidad</h2>
-            <p>1.4.1 Tipos<br>1.4.2 Funcionamiento<br>1.4.3 Características<br>1.4.4 Modo de comunicación</p>
+            <p>Detectan la presencia de un objeto cercano sin contacto físico. Se usan en sistemas de automatización industrial y en dispositivos móviles.</p>
         </section>
 
-        <!-- Conclusiones -->
         <section>
-            <h2>Conclusiones</h2>
-            <p>Resumen de los diferentes tipos de sensores y sus aplicaciones.</p>
+            <h2>1.4.1 Tipos de Sensores de Proximidad</h2>
+            <ul>
+                <li><strong>Inductivos:</strong> Detectan objetos metálicos mediante un campo magnético.</li>
+                <li><strong>Capacitivos:</strong> Detectan cambios en la capacitancia cuando un objeto se aproxima.</li>
+                <li><strong>Ultrasónicos:</strong> Usan ondas de sonido para detectar la presencia de objetos a distancia.</li>
+            </ul>
         </section>
-    </div>
+
+        <section>
+            <h2>1.4.2 Funcionamiento de Sensores de Proximidad</h2>
+            <p>Estos sensores emiten un campo electromagnético o una señal ultrasónica y detectan su interrupción o el eco reflejado por un objeto cercano.</p>
+        </section>
+
+        <section>
+            <h2>1.4.3 Características de Sensores de Proximidad</h2>
+            <ul>
+                <li>Alta fiabilidad en entornos industriales.</li>
 
     <script>
         new SlideJS('.slides');
